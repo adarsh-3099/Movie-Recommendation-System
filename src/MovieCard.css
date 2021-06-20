@@ -1,0 +1,58 @@
+.img{
+    height: 450px;
+    width: 280px;
+    box-shadow: 2px 2px 2px 2px black;
+    margin-left: 20px;
+    border-radius: 10%;
+    transition: transform .2s; /* for hover effect */
+}
+
+.img:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+.movieContent{
+    margin: 30px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plot{
+    margin-top: 20px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.app__Header{
+    background-color: white;
+}
+
+.content{
+    flex: 1;
+    width: 500px;
+    color: white;
+    text-align: left;
+    height: fit-content;
+    width: 200px;
+    background-color: rgb(255, 0, 0, 0.5);
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.reccomend{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rec{
+    flex: 1 1 160px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.app__Header{
+    padding-top: 10px;
+    margin-top: 20px;
+}
+

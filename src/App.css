@@ -1,0 +1,51 @@
+*{
+  margin: 10px;
+}
+
+body{
+  background-image: url('https://raw.githubusercontent.com/kishan0725/AJAX-Movie-Recommendation-System-with-Sentiment-Analysis/master/static/image.jpg')
+}
+
+.App {
+  text-align: center;
+}
+
+
+.movie {
+	color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	resize: none;
+}
+
+@media screen and (max-widht:600px){
+	
+}
+
+.cardEle > h1{
+	color:red;
+	fontSize:40px;
+	padding:10px;
+}
+
+.cardEle > input{
+	background-color:white; 
+	width:600px;
+	margin:20px;
+	padding:10px;
+	borderRadius:5%
+}
+
+
+@media screen and (max-width:700px){
+	.cardEle > input{
+		width: 200px;
+	}
+}
+
+@media screen and (max-width:700px){
+	.cardEle > h1{
+		font-size: 20px;
+		padding-bottom: 5px;
+	}
+}
